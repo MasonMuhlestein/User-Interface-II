@@ -1,1 +1,178 @@
-/* Add CSS styling here */
+
+h1 {
+    padding: 0 0 0 32px;
+    display: flex;
+    margin: 0px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+header {
+    margin: 2px;
+    background-color: salmon;
+    padding: 20px;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;  
+    color: black;
+    margin-left: 30px;
+}
+
+nav {
+    font-family: 'Oswald', sans-serif;
+    border: 2px solid black;
+    margin: 2px;
+    padding: 7px;
+    background-color: lightblue;   
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto ;
+    background-color: #5C575C ;
+}
+
+.MainBody {
+    display: flex;
+    flex: row;
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    margin: 75px 0 0 180px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.MyP {
+    display: flex;
+    margin: 0 auto ;
+    border: 1px solid black;
+    width: 88px;
+    background-color: lightblue;
+    justify-content: center;
+}
+
+.Pictures {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: left;
+    max-width: 1000px;
+    background-color: white;
+}
+
+img {
+    margin: 20px;
+}
+
+.Group {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+footer {
+    background-color: salmon;
+    display: flex;
+    flex-direction: row;  
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+.ContactMe {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 50px 0;
+}
+
+button {
+    border: 0px;
+    padding: 0px;
+}
+
+
+@media (max-width: 500px)
+{
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .NavBar{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+               
+    }
+
+    .MainBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        display: flex;  
+    }
+
+    .Group {
+        width: 50%;
+    }
+
+    nav{
+        margin: 0;
+        padding: 5px;
+        width: 100px;
+
+ }
+}
+
+@media (max-width: 800px)
+{
+    
+    h1 {
+        display: flex;
+        justify-content: center;
+        font-size: 40px;
+    }
+
+    .NavBar{
+        display: flex;
+        flex-direction: column;   
+        align-items: center;
+               
+    }
+
+    .MainBody {
+        display: flex;
+        flex-direction: column;
+    }
+
+    h3 {
+        display: flex;  
+        margin: 0 0 0 320px; 
+    }
+
+    .MyP {
+        margin: 0 0 0 332px;
+    }
+
+    .Group {
+        width: 50%;
+    }
+
+    nav{
+        margin: 0;
+        padding: 5px;
+        width: 100px;
+}
